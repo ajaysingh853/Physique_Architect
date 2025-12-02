@@ -411,7 +411,7 @@
         // including potential XSS attacks. For this client-side only app with user-provided keys,
         // this is acceptable. Users should configure API key restrictions (e.g., HTTP referrer
         // restrictions) in Google AI Studio for additional protection.
-        let apiKey = localStorage.getItem('gemini_api_key') || "";
+        let apiKey = localStorage.getItem('gemini_api_key') || "AIzaSyCkXKG2dS8Ibe34ZvB-X8ftkIy9Kp4jeAY";
         
         function showApiKeyModal() {
             const modal = document.getElementById('api-key-modal');
@@ -908,4 +908,5 @@
 
     </script>
 </body>
+
 </html>
